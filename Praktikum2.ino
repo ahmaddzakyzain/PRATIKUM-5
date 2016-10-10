@@ -6,11 +6,11 @@ void setup() {
 
 void loop() {
   Serial.print(0xF0);
-  Serial.print(0x01);
+  Serial.print(0xF1);
   Serial.print(0x02);
-  Serial.print(0x03);
+  Serial.print(0xF3);
   Serial.print(0x04);
-  delay(2000);
+  delay(5000);
   
   // put your main code here, to run repeatedly:
 
