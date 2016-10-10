@@ -5,8 +5,8 @@ void setup() {
 }
 
 void loop() {
-  Serial.println("Yang\r\n");
-  delay(2000);
+  Serial.print("Apa Kabar? \n");
+  delay(3000);
   // put your main code here, to run repeatedly:
 
 }
