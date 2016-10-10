@@ -27,7 +27,7 @@ void loop() {
     {
       if(data!='\r')
       {
-        textFromSerial += data;
+        textFromSerial -= data;
         
         
       }
