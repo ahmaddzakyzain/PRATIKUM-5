@@ -22,7 +22,7 @@ ISR(USART_RX_vect)
   {
     lcd.clear();
     lcd.setCursor(0,0);
-    lcd.print("incoming data");
+    lcd.print("data masuk");
     lcd.setCursor(0,1);
     lcd.print(dataSerial);
     dataSerial= "" ;
